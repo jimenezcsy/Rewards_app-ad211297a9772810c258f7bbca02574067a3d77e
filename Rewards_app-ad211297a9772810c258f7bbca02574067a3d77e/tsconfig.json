@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "app/scanner/attempt1.js", "supabase/user_class.js", "app/app.jsx", "app/(tabs)/index.js", "app/(tabs)/home.js", "app/(tabs)/scan.js"  ]
+}
